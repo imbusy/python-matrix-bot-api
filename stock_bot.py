@@ -1,10 +1,8 @@
 """
-A test bot using the Python Matrix Bot API
+A bot that queries stock data.
 
-Test it out by adding it to a group chat and doing one of the following:
-1. Say "Hi"
-2. Say !echo this is a test!
-3. Say !d6 to get a random size-sided die roll result
+Test it out by adding it to a group chat and saying "!aapl" for AAPL
+stock info.
 """
 
 import json
