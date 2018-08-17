@@ -28,9 +28,6 @@ SERVER = os.environ['SERVER']  # Matrix server URL
 
 
 def tick_callback(room, event):
-    if 'body' not in event['content']:
-        return
-
     tick = event['content']['body'].lstrip('!').upper()
     if len(tick) > 10:
         room.send_text('Per ilgas pavadinimas gal? Astibusk.')
